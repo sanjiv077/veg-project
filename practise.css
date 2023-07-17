@@ -1,0 +1,342 @@
+:root{
+  --primary : rgb(20,219,10)
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.nav-item a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 15px;
+  transition: all 0.5s;
+} 
+.nav-item a:hover{
+  color: var(--primary);
+
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: var(--primary);
+}
+.navbar-brand{
+  height: 50px;
+  width: 100px;
+}
+.search{
+  height: 45px;
+  outline: none;
+  border: 2px solid rgb(20, 219, 10);
+  background-color: transparent;
+  border-radius: 20px 0px 0px 20px;
+  border-right: none;
+
+}
+.btn1{
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: rgb(20, 219, 10);
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+  transition: all 0.3s;
+}
+
+.btn1:hover{
+  background-color: rgb(15, 154, 7);
+}
+.main{
+  background: url(./imgs/m1.jpg)no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.main h1{
+  font-size: 5rem;
+}
+
+.main p:nth-child(1){
+  font-size: 18px;
+  font-weight: 500;
+}
+.main p:nth-child(2)
+{
+  font-size: 18px;
+  color: gray;
+}
+.btn2{
+  height: 50px;
+  width: 25%;
+  outline: none;
+  border: none;
+  color: white;
+  background: rgb(20, 219, 10);
+  border-radius: 50px;
+  transition: all 0.4s;
+
+}
+.btn2:hover{
+  background: rgb(15, 154, 7);
+}
+.line{
+  height: 6px;
+  width: 30%;
+  background-color: rgb(20, 219, 10);
+  display: inline-block;
+}
+/* ========= */
+.about{
+  background: url(./imgs/abut.jpg) no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+.about i{
+  font-size: 45px;
+}
+.about h1{
+  font-size: 3rem;
+}
+
+.about p:nth-child(1){
+  font-size: 18px;
+  font-weight: 500;
+}
+.about p:nth-child(2)
+{
+  font-size: 18px;
+  color: gray;
+}
+.welcome{
+  background: rgb(20, 219, 10);
+}
+.line2{
+  height: 6px;
+  width: 25%;
+  background-color: rgb(20, 219, 10);
+  display: inline-block;
+}
+.welcome h1{
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+.welcome card{
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+.welcome i{
+  font-size: 45px;
+  color: rgb(20, 219, 10);
+}
+welcome h2{
+  font-weight: lighter;
+  padding: 10px 0px;
+}
+/* product */
+.product h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.product p:nth-child(1){
+  font-size: 18px;
+  font-weight: 500; 
+}
+.product p:nth-child(2)
+{
+  font-size: 18px;
+  color: gray;
+}
+.star{
+  text-align: end;
+  color: orange;
+}
+.products .card{
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+} 
+.product .card-body{
+  border: 2px dashed rgb(175, 172, 172);
+}
+.btn3{
+  height: 50px;
+  width:50%;
+  outline: none;
+  border: none;
+  color: white;
+  background: rgb(20, 219, 10);
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.4s;
+
+}
+ .head1{
+font-weight: 400;
+margin: 0;
+}
+.per1{
+  color: rgb(168, 162, 162 );
+ 
+
+
+}
+.btn3:hover{
+  outline: none;
+  border: 1px solid rgb(20, 219, 10);
+  color: rgb(20, 219, 10);
+  background: transparent;
+  border-radius: 50px;
+}
+
+/* =======discount======= */
+.discount{
+  background: rgb(20, 219, 10);
+  color: white;
+
+
+}
+.discount i{
+  background: rgb(20, 219, 10);
+  color: white;
+
+}
+.btn4{
+  height: 50px;
+  width: 70%;
+  outline: none;
+  border: none;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  font-weight: lighter;
+  transition: 0.4s all;
+}
+.btn4:hover{
+  color: black;
+  font-size: large;
+  font-weight: 500;
+}
+
+.store h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.store p:nth-child(1){
+  font-size: 18px;
+  font-weight: 500;
+}
+.store p:nth-child(2)
+{
+  font-size: 18px;
+  color: gray;
+}
+
+.store i{
+  font-size: 45px;
+}
+
+.store .card{
+  border-radius: 0;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.store .card:hover{
+  background-color: rgb(20, 219, 10);
+  color: white;
+}
+.store .card:hover .per1{
+  color: white;
+}
+.seller .h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* ===contact=== */
+.contact{
+  background: url(./imgs/cont.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.contact h1{
+ font-size: 3rem;
+ font-weight: bold;
+ color: white;
+}
+
+.contact p{
+  color: white;
+}
+.line2{
+  height: 6px;
+  width: 30%;
+  background-color: white;
+  display: inline-block;
+
+}
+.circle{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 18px;
+}
+.contact input{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.contact textarea{
+  height: 100px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.footer{
+  background: grey;
+}
+
+.s1{
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 4px;
+  margin-left: 5px;
+  transition: all 0.3s;
+  cursor: pointer;
+
+}
+.s1:hover{
+  background-color: rgb(20, 219, 10);
+  border: none;
+}
